@@ -7,6 +7,7 @@ public class ExactChange {
       
       int input = scnr.nextInt();
       
+      if (input > 0){
       int[] values = {100, 25, 10, 5, 1};
       String[] change = {"Dollar", "Quarter", "Dime", "Nickel", "Penny"};
       
@@ -17,7 +18,10 @@ public class ExactChange {
          if (count > 0) {
             System.out.println(count + " " + (count == 1 ? change[i] : change[i] + "s"));
          }
-      }
+      } 
+   } else {
+      System.out.println("No change");
+   }
       scnr.close();
    }
 }
