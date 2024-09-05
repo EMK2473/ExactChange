@@ -47,6 +47,13 @@ Dimes (10 cents)
 Nickels (5 cents) 
 Pennies (1 cent) 
 ```
+
+You can easily modify the program to replace any specified currencies by updating the following lines:
+```Java
+int[] values = {100, 25, 10, 5, 1};
+String[] change = {"Dollar", "Quarter", "Dime", "Nickel", "Penny"};
+```
+
 Example: If you input:
 ```Java
 287
