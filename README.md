@@ -21,7 +21,7 @@ Using terminal commands:
 
 - Clone or download the repository: 
 ```Java 
-- git clone https://github.com/your-username/ExactChange.git 
+- git clone https://github.com/EMK2473/ExactChange.git 
 ```
 
 - Navigate to the project directory: 
